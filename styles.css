@@ -1,86 +1,87 @@
 body {
-    font-family: Arial, sans-serif; /* 전체 페이지의 폰트 스타일 지정 */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* 배경색 설정 */
-    text-align: center; /* 제목을 중앙 정렬 */
+    background-color: #fffcf9; /* 부드럽고 밝은 배경색 */
+    color: #333;
+    text-align: center;
 }
 
 h1 {
-    color: #333; /* 제목의 색상 지정 */
-    text-align: left; /* 제목을 중앙 정렬 */
+    color: #ff6347; /* 상큼한 빨간색으로 제목 강조 */
+    text-align: left;
 }
 
 h2 {
-    color: #07289f; /* 제목의 색상 지정 */
-    text-align: left; /* 제목을 중앙 정렬 */
+    color: #32cd32; /* 상큼한 초록색 */
+    text-align: left;
 }
 
 h3 {
-    color: #2d0369; /* 제목의 색상 지정 */
-    text-align: left; /* 제목을 중앙 정렬 */
+    color: #ffb6c1; /* 연한 핑크색 */
+    text-align: left;
 }
 
 p {
-    font-size: 16px; /* 문단의 폰트 크기 지정 */
-    color: #666; /* 문단의 색상 지정 */
-    line-height: 1.2; /* 문단의 줄 간격 지정 */
-    margin: 10px; /* 문단 주위 여백 지정 */
-    text-align: left; /* 제목을 중앙 정렬 */
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6; /* 문단 간격을 여유 있게 설정 */
+    margin: 15px;
+    text-align: left;
 }
 
 a {
-    color: #000; /* 링크의 색상 지정 */
-    text-decoration: none; /* 링크의 밑줄 제거 */
-    text-align: center; /* 제목을 중앙 정렬 */
+    color: #ff6347; /* 상큼한 빨간색 링크 */
+    text-decoration: none;
 }
 
 a:hover {
-    color: blue; /* 마우스 오버 시 링크 색상 변경 */
-    text-align: center; /* 제목을 중앙 정렬 */
+    color: #ff1493; /* 마우스 오버 시 강렬한 핑크로 변함 */
 }
 
 ul {
-    list-style: none; /* 목록의 스타일 없애기 */
+    list-style: none;
     padding: 0;
-    text-align: left; /* 제목을 중앙 정렬 */
+    text-align: left;
 }
 
 li {
-    background-color: #fff; /* 목록 항목 배경색 지정 */
-    margin-bottom: 5px; /* 목록 항목 사이의 여백 지정 */
-    padding: 5px; /* 목록 항목 내부 여백 지정 */
-    border: 1px solid #ddd; /* 목록 항목 테두리 지정 */
-    text-align: left; /* 제목을 중앙 정렬 */
+    background-color: #fff; /* 흰색 배경으로 밝고 깔끔한 느낌 */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px; /* 둥근 테두리 */
+    border: 1px solid #ddd;
 }
 
 img {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  width: 320px;
+    border: 2px solid #ff6347; /* 이미지 테두리를 상큼한 빨간색으로 설정 */
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    max-width: 350px;
 }
 
 div {
-    margin: 20px; /* div 주위 여백 지정 */
-    padding: 20px; /* div 내부 여백 지정 */
-    background-color: yellow; /* 배경색 지정 */
-    border: 1px solid #ddd; /* 테두리 지정 */
-    text-align: center; /* 제목을 중앙 정렬 */
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* 밝고 부드러운 배경색 */
+    border-radius: 10px; /* 둥근 모서리 */
+    border: 1px solid #ddd;
 }
 
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #4c81af;
+    padding: 12px 25px;
+    margin: 15px 0;
+    background-color: #ff6347; /* 버튼을 상큼한 빨간색으로 */
     color: white;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 30px; /* 둥근 버튼 */
+    font-size: 18px;
+    transition: background-color 0.3s ease; /* 부드러운 색상 변환 */
 }
 
 .button:hover {
-    background-color: #eeee08;
+    background-color: #ff1493; /* 마우스 오버 시 색상 변화 */
 }
