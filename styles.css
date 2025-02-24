@@ -2,40 +2,34 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f8c7d1; /* 옅은 분홍색 배경 */
     text-align: center;
 }
 
-h1 {
-    color: #333; /* 찐한 색으로 설정 */
-    text-align: left;
-}
-
-h2 {
-    color: #07289f; /* 더 짙은 파란색으로 설정 */
+h1, h2, h3 {
+    color: #76b6f1; /* 진한 하늘색 글자 */
     text-align: left;
 }
 
 h3 {
-    color: #2d0369; /* 좀 더 짙은 보라색으로 설정 */
+    color: #4f1982;
     text-align: left;
 }
 
 p {
     font-size: 16px;
-    color: #555; /* 좀 더 진한 회색 */
+    color: #76b6f1; /* 진한 하늘색 글자 */
     line-height: 1.5;
     margin: 10px;
     text-align: left;
 }
 
 a {
-    color: #333; /* 진한 색으로 설정 */
-    text-decoration: none;
+    color: #333; /* 링크 색상 */
 }
 
 a:hover {
-    color: #07289f; /* 마우스 오버 시 진한 파란색 */
+    color: #d4b7e2; /* 마우스 오버 시 아주 옅은 보라색 */
 }
 
 ul {
@@ -47,9 +41,8 @@ ul {
 li {
     background-color: #fff;
     margin-bottom: 5px;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ddd;
-    text-align: left;
 }
 
 img {
@@ -57,6 +50,7 @@ img {
     border-radius: 4px;
     padding: 5px;
     width: 320px;
+    margin-right: 15px; /* 사진과 글자 사이 간격 */
 }
 
 div {
@@ -65,20 +59,24 @@ div {
     background-color: yellow;
     border: 1px solid #ddd;
     text-align: center;
+    display: flex;
+    justify-content: space-between; /* 사진과 텍스트를 좌우로 배치 */
+    align-items: center;
 }
 
 .button {
     display: inline-block;
-    padding: 15px 30px; /* 버튼 크기 확대 */
+    padding: 10px 20px;
     margin: 10px 0;
     background-color: #4c81af;
     color: white;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 18px; /* 버튼 텍스트 크기 확대 */
+    font-size: 16px;
+    width: 100%; /* 버튼 크기를 화면 전체로 확대 */
 }
 
 .button:hover {
-    background-color: #eeee08;
+    background-color: #d4b7e2; /* 마우스 오버 시 아주 옅은 보라색 */
 }
